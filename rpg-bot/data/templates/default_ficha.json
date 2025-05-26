@@ -1,0 +1,52 @@
+{
+    "id": "",
+    "nome": "Novo Personagem",
+    "idade": 0,
+    "raca": "Humano",
+    "classe": "Iniciante",
+    "permissoes": [],
+    "channel_id": "",
+    
+    "dados": {
+        "exp": 0,
+        "multiplicador_nivel": 1.25,
+        
+        "atributos": {
+            "forca": 10,
+            "velocidade": 10,
+            "constituicao": 10,
+            "inteligencia": 10,
+            "sabedoria": 10,
+            "carisma": 10
+        },
+        
+        "multiplicadores": {
+            "vida": 1.0,
+            "mana": 1.0,
+            "aura": 1.0
+        },
+        
+        "flat": {
+            "vida": 0,
+            "mana": 0,
+            "aura": 0
+        },
+        
+        "efeitos": [],
+        
+        "habilidades": {
+            "Exemplo": {
+                "Habilidade Base": {
+                    "desc": "Descrição detalhada",
+                    "custo": "10 mana",
+                    "cd": "3 turnos"
+                }
+            }
+        },
+        
+        "inventario": {
+            "Armas": ["Item exemplo"],
+            "Consumíveis": ["Poção exemplo"]
+        }
+    }
+}

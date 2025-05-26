@@ -1,0 +1,49 @@
+{
+    "id": "mikeyas",
+    "nome": "Mikeyas",
+    "idade": 27,
+    "raca": "RuleBreak",
+    "classe": "mago",
+    "permissoes": ["487989356896976936"],
+    "channel_id": "123456789012345678",
+    
+    "dados": {
+        "exp": 10,
+        "atributos": {
+            "forca": 3,
+            "velocidade": 6,
+            "constituicao": 9,
+            "inteligencia": 16,
+            "sabedoria": 16,
+            "carisma": 11
+        },
+        "multiplicadores": {
+            "vida": 1.5,
+            "mana": 0,
+            "aura": 0
+        },
+        "flat": {
+            "vida": 0,
+            "mana": 0,
+            "aura": 0
+        },
+        "efeitos": [
+            {
+                "nome": "Escolhido do Rei",
+                "tipo": 3,
+                "alvo": ["forca","constituicao","velocidade","carisma","inteligencia","sabedoria"],
+                "valor": 0.2
+            }
+        ],
+        "habilidades": {
+            "Poder Único": {
+                "Trabalho não roubado(TNR)": {"desc": "Pode armazenar 5 coisas que tenha entrado em contato, e manter 1 invocada como copia"}
+            }
+        },
+        "inventario": {
+            "Armas": ["Cajado Mikeyas"],
+            "Vestuário": ["Set de roupas de Mikeyas"],
+            "Consumíveis": ["ouro 1139"]
+        }
+    }
+}
